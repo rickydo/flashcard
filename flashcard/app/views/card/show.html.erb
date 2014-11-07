@@ -1,0 +1,7 @@
+<div class="container">
+	<h1><%= @set.name %></h1>
+
+	<p><%= @card.text %></p>
+	<img src="<%= @card.image_url %>">
+	<%= link_to 'Next', flashcard_set_card_path(@set, 2)%>
+</div>
