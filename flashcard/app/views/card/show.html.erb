@@ -3,5 +3,5 @@
 
 	<p><%= @card.text %></p>
 	<img src="<%= @card.image_url %>">
-	<%= link_to 'Next', flashcard_set_card_path(@set, 2)%>
+	<%= link_to 'Next', flashcard_set_card_path(@set, @set.random_card)%>
 </div>
