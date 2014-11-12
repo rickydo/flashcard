@@ -1,5 +1,5 @@
 <div class="container">
 	<h1><%= @flashcard_set.name %></h1>
 	<img src="<%= @flashcard_set.image_url %>">
-	<h2><%= link_to "Let's begin!", flashcard_set_card_path(@flashcard_set, @flashcard_set.random_card ) %></h2>
+	<h2><%= link_to "Let's begin!", flashcard_set_card_path(@flashcard_set, random_card_id ) %></h2>
 </div>

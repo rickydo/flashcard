@@ -1,0 +1,33 @@
+@import "variables";
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $light_blue;
+}
+
+p {
+	color: $black;
+	font-size: $card_font;
+	font-weight: $font_weight;
+}
+
+a {
+	text-decoration: none;
+	color: $black;
+}
+
+a:hover {
+	color: white;
+}
+
+li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}

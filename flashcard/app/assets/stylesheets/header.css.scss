@@ -1,0 +1,19 @@
+@import "variables";
+.header {
+
+	ul {
+		text-align: center;
+		li {
+			display: inline; 
+			i.fa.fa-home {
+				font-size: 3rem;
+				color: $white;
+				margin-top: 10px;
+			}
+
+			h1#title {
+				color: $white;
+			}
+		}
+	}
+}

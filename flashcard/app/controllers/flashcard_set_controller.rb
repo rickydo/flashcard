@@ -5,6 +5,6 @@ class FlashcardSetController < ApplicationController
 
 	def show
 		@flashcard_set = FlashcardSet.find(params[:id])
-		@cards = Card.where(flashcard_set_id: params[:id])
+		@card_ids = @flashcard_set.cards.map(&:id)
 	end
 end

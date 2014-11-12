@@ -1,3 +1,27 @@
 // Place all the styles related to the flashcard_set controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "variables";
+
+.container {
+}
+
+	ul.thumbs {
+		margin-top: 5%;
+		li.deck_index {
+			// display: inline;
+			float: left;
+			width: 25%;
+			height: 25%;
+			padding: 20px;
+			p {
+				font-size: $set_title;
+				text-align: center;
+			}
+			img {
+				height: 25%;
+				width: 100%;
+				border-radius: 10px;
+			}
+		}
+	}

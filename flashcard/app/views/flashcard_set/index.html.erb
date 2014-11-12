@@ -1,8 +1,11 @@
 <div class="container">	
-	<ul>
+	<ul class="thumbs">
 		<% @flashcard_sets.each do |set| %>
-				<%= link_to set.name , flashcard_set_path(set) %>
-				<img src="<%=set.image_url%>" >
+				<li class = "deck_index">
+					
+					<a href="/flashcard_set/<%= set.id %>"><img src="<%=set.image_url%>"></a><br>
+					<p class="index_title"><%= link_to set.name , flashcard_set_path(set) %></p>
+				</li>
 		<% end %>
 	</ul>
 </div>
