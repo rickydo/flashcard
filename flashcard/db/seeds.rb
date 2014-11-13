@@ -1,13 +1,13 @@
 # decks
-set_1 = FlashcardSet.create(name: "Math" , image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/math.jpg")
-set_2 = FlashcardSet.create(name: "Vocabulary", image_url:"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Science-Vocabulary-Pictures.png")
-set_3 = FlashcardSet.create(name: "Animals", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Animal-Jigsaw-Puzzles.jpg")
-set_4 = FlashcardSet.create(name: "Numbers", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/fruit-numbers-building-blocks-wooden-barreled-children-puzzle-toys_TW08022_1.jpg")
-set_5 = FlashcardSet.create(name: "Alphabet", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/uncle-goose-upper-case-lower-case-blocks_zpscd8baeaf.jpg")
-set_6 = FlashcardSet.create(name: "Colors", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/piano_wallpaper_music_colors-1920x1200.jpg")
+math_set = FlashcardSet.create(name: "Math" , image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/math.jpg")
+vocab_set = FlashcardSet.create(name: "Vocabulary", image_url:"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Science-Vocabulary-Pictures.png")
+animal_set = FlashcardSet.create(name: "Animals", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Animal-Jigsaw-Puzzles.jpg")
+number_set = FlashcardSet.create(name: "Numbers", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/fruit-numbers-building-blocks-wooden-barreled-children-puzzle-toys_TW08022_1.jpg")
+letters_set = FlashcardSet.create(name: "Alphabet", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/uncle-goose-upper-case-lower-case-blocks_zpscd8baeaf.jpg")
+colors_set = FlashcardSet.create(name: "Colors", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/piano_wallpaper_music_colors-1920x1200.jpg")
 
 # Math
-Card.create(text: "math", flashcard_set_id: set_1.id )
+Card.create(text: "math", flashcard_set_id: math_set.id )
 
 # Vocabulary
 words = ["arms", "arms down", "arms up", "baby", "babies", "clap", "clapping", "colors", "eyes", "hi", "mouth",
@@ -22,7 +22,10 @@ words = ["arms", "arms down", "arms up", "baby", "babies", "clap", "clapping", "
  		"stars", "touch both feet", "touch one foot", "touch your ears", "touch your hair", "touch your nose", "touch your toes",
  		"toys", "tree", "umbrella", "walk", "walking", "wave your hand", "yawn", "zipper"]
 
-words_images = []
+words.each do |word|
+	Card.create!(text: word, flashcard_set_id: vocab_set.id)
+end
+# words_images = []
 
 # animals
 animals = ["cat", "dog", "elephant", "gorilla", "tiger", "chimpanzees", "giraffe", "hippopotamus", "monkey", "camel", 
@@ -61,6 +64,9 @@ animals_images = ["http://i67.photobucket.com/albums/h311/azncookiedo/website%20
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/turtle.jpg",
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/zebra_b.jpg"]
 
+animals.zip(animals_images).each do | animal, image |
+	Card.create!(text: animal, image_url: image, flashcard_set_id: animal_set.id)
+end
 # Numbers
 numbers = %w(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
 
@@ -77,9 +83,14 @@ numbers_images =["http://i67.photobucket.com/albums/h311/azncookiedo/website%20i
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/11-dogs.jpg",
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/one-dozen-eggs_medium.jpg"]
 
+numbers.zip(numbers_images).each do | number, image | 
+	Card.create!(text: number, image_url: image, flashcard_set_id: number_set.id )
+end
+
 #alphabet
-letters = [ "A a", "B b", "C c", "D d", "E e", "F f", "G g", "H h", "I i", "J j", "K k", "L l", "M m", "N n", "O o", "P p", 
-		"Q q", "R r", "S s", "T t", "U u", "V v", "W w", "X x", "Y y", "Z z" ]
+letters = [ "Apple" , "Banana", "Car", "Duck", "Eggs", "Fan", "Gorilla", "Hat", "Igloo", "Jacket", "Kite", "Lamp", 
+			"Muffins", "Noodles", "Oranges", "Persimmon", "Quilt", "Rocket", "Soap", "Tomato", "Umbrella", "Vase", 
+			"Water", "X-Ray", "Yogurt", "Zoo" ]
 
 letters_images = ["http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/red_delicious_apple.jpg",
 	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/banana_PNG817.png",
@@ -108,6 +119,9 @@ letters_images = ["http://i67.photobucket.com/albums/h311/azncookiedo/website%20
 	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/blueberry-yogurt.jpg",
 	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/zoo-sign-clip-art-2dcp1ji.jpg"]
 
+letters.zip(letters_images).each do | letter, image |
+	Card.create!(text: letter, image_url: image, flashcard_set_id: letters_set.id )
+end
 # colors
 colors = ["black", "blue", "brown", "green", "orange", "pink", "red", "purple", "blue", "white", "yellow"]
 
@@ -122,4 +136,8 @@ colors_images = ["http://i67.photobucket.com/albums/h311/azncookiedo/website%20i
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/mountain_bluebird_7C2V4733.jpg",
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/white-rose-hd-wallpaper-3.jpg",
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/banana_PNG817.png"] 
+
+colors.zip(colors_images).each do | color, image |
+	Card.create!(text: color, image_url: image, flashcard_set_id: colors_set.id)
+end
 
