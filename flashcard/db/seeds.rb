@@ -32,9 +32,20 @@ animals = ["cat", "dog", "elephant", "gorilla", "tiger", "chimpanzees", "giraffe
 animals_images = []
 
 # Numbers
-numbers = %w(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+numbers = %w(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
 
-numbers_images =[]
+numbers_images =["http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/red_delicious_apple.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/pears.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/7355631902_68936774d2_z.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/kiwi-healthy-for-pregnancy.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/bananas2.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Donuts.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/popup-1.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/8-cherries-010.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/5865.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/ten-fingers.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/11-dogs.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/one-dozen-eggs_medium.jpg"]
 
 #alphabet
 letters = [ "A a", "B b", "C c", "D d", "E e", "F f", "G g", "H h", "I i", "J j", "K k", "L l", "M m", "N n", "O o", "P p", 
@@ -43,7 +54,29 @@ letters = [ "A a", "B b", "C c", "D d", "E e", "F f", "G g", "H h", "I i", "J j"
 letters_images = ["http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/red_delicious_apple.jpg",
 	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/banana_PNG817.png",
 	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/200320acura20tl20transmission20repair20charlotte20nc20twin.jpg",
-	""]
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/duck_0_450.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Eggs.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/The_Black_Beauty.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/giraffe.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Faddism-Straw-Fedora-Hat-P15728177.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/igloo-snow.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/2012-winter-baby-boys-down-coat-children.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/6487_kites-flying-pics-1024x768.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/flask_modern_table_lamp_ash_1_2.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Chocolate-Chip-Banana-Muffins-OR.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/soba-noodles2.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/orange_PNG791.png",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/persimmon-fuyu-trans.png",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/EQMIITriangleBlockMiniQuilt1.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/rocket.jpeg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/soap.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/tomato.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/brigg-golf-gelb-seite.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/wedgwood-barlaston-vases-butterfly-bloom-shaped-vase-091574209814.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/water-poured-into-glass.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/xray.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/blueberry-yogurt.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/zoo-sign-clip-art-2dcp1ji.jpg"]
 
 # colors
 colors = ["black", "blue", "brown", "green", "orange", "pink", "red", "purple", "blue", "white", "yellow"]
