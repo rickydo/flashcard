@@ -22,18 +22,38 @@ words = ["arms", "arms down", "arms up", "baby", "babies", "clap", "clapping", "
  		"stars", "touch both feet", "touch one foot", "touch your ears", "touch your hair", "touch your nose", "touch your toes",
  		"toys", "tree", "umbrella", "walk", "walking", "wave your hand", "yawn", "zipper"]
 
+words_images = []
+
 # animals
 animals = ["cat", "dog", "elephant", "gorilla", "tiger", "chimpanzees", "giraffe", "hippopotamus", "monkey", "camel", 
 		"chicks", "duck", "ducks", "horse", "lion", "pig", "rhinoceros", "seal", "spider", "bear", "bee", "beetle",
 		"calf", "calves", "donkey", "piglet", "polar bear", "puppies", "rabbit", "squirrel", "turtle", "zebra"]
 
+animals_images = []
+
 # Numbers
 numbers = %w(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
+numbers_images =[]
 
 #alphabet
 letters = [ "A a", "B b", "C c", "D d", "E e", "F f", "G g", "H h", "I i", "J j", "K k", "L l", "M m", "N n", "O o", "P p", 
 		"Q q", "R r", "S s", "T t", "U u", "V v", "W w", "X x", "Y y", "Z z" ]
 
+letters_images = []
+
 # colors
 colors = ["black", "blue", "brown", "green", "orange", "pink", "red", "purple", "blue", "white", "yellow"]
+
+colors_images = ["http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/66394742IP-STC-BK.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/mountain_bluebird_7C2V4733.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Coffee-Beans-Wallpaper-brown-28239127-1920-1200.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/rose-color-green.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/persimmon-fuyu-trans.png",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/cherry_blossoms_pink_by_wataru12012-d37qyax.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/red_delicious_apple.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/8427-2.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/mountain_bluebird_7C2V4733.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/white-rose-hd-wallpaper-3.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/banana_PNG817.png"] 
 
