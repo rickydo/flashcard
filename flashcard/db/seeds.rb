@@ -40,7 +40,10 @@ numbers_images =[]
 letters = [ "A a", "B b", "C c", "D d", "E e", "F f", "G g", "H h", "I i", "J j", "K k", "L l", "M m", "N n", "O o", "P p", 
 		"Q q", "R r", "S s", "T t", "U u", "V v", "W w", "X x", "Y y", "Z z" ]
 
-letters_images = []
+letters_images = ["http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/red_delicious_apple.jpg",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/banana_PNG817.png",
+	"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/200320acura20tl20transmission20repair20charlotte20nc20twin.jpg",
+	""]
 
 # colors
 colors = ["black", "blue", "brown", "green", "orange", "pink", "red", "purple", "blue", "white", "yellow"]
