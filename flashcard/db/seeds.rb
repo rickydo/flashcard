@@ -26,10 +26,40 @@ words_images = []
 
 # animals
 animals = ["cat", "dog", "elephant", "gorilla", "tiger", "chimpanzees", "giraffe", "hippopotamus", "monkey", "camel", 
-		"chicks", "duck", "ducks", "horse", "lion", "pig", "rhinoceros", "seal", "spider", "bear", "bee", "beetle",
-		"calf", "calves", "donkey", "piglet", "polar bear", "puppies", "rabbit", "squirrel", "turtle", "zebra"]
+		   "chicks", "duck", "horse", "lion", "pig", "rhinoceros", "seal", "spider", " panda bear", "bee", "beetle",
+		   "calf", "calves", "donkey", "piglet", "polar bear", "puppies", "rabbit", "squirrel", "turtle", "zebra"]
 
-animals_images = []
+animals_images = ["http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/cat.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/658040288_orig.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/african-elephant_435_990x742.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/gorilla-in-the-wild.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Tiger.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/chimpanzee-1.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/giraffe.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Hippo-Wallpaper-hippos-24491034-1680-1050.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/cute-little-monkey.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/07_Camel_Profile_near_Silverton_NSW_07072007.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Frozen-Chicks.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/duck_0_450.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/brown_horse_running.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/african-lion-wallpapers-hd.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/pig.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/GTY_black_rhino_lpl_131027_16x9_992.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/hd-seal-wallpaper-with-a-big-seal-sitting-on-the-rocks-hd-seals-wallpapers-backgrounds-pictures-photos.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Hogna_lenta_18.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/140813134555-panda-cub-xing-bao-horizontal-gallery.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Bee.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Beetle-Bessbug.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/calf2Bpics2B001.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/British_White_calf_trio.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/donkeyf.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Cute-Baby-Pig-picture.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/polarbear-kirkmcneil_0418.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/cute-puppies-pictures_1400060937.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Lovely_rabbit_Picture_da033008s.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/baby-squirrel.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/turtle.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/zebra_b.jpg"]
 
 # Numbers
 numbers = %w(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
