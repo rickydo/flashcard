@@ -2,9 +2,8 @@
 	<ul class="thumbs">
 		<% @flashcard_sets.each do |set| %>
 				<li class = "deck_index">
-					
-					<a href="/flashcard_set/<%= set.id %>"><img src="<%=set.image_url%>"></a><br>
 					<p class="index_title"><%= link_to set.name , flashcard_set_path(set) %></p>
+					<a href="/flashcard_set/<%= set.id %>"><img src="<%=set.image_url%>"></a><br>
 				</li>
 		<% end %>
 	</ul>

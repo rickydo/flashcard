@@ -1,11 +1,16 @@
 <div class="container">
-	<h1><%= @set.name %></h1>
-	<% if @set.name == "Math" %>
-		<p><%=rand(1..5).to_s + " + " + rand(1..5).to_s%></p>
-		<%= link_to "Next", "" %>
-	<% else %>
-		<p><%= @card.text %></p>
-		<img src="<%= @card.image_url %>">
-		<%= link_to 'Next', flashcard_set_card_path(@set, next_card)%>
-	<% end %>
+	<div class="content">
+		<h1 class="card_title"><%= @set.name %></h1>
+		<% if @set.name == "Math" %>
+			<p><%=rand(1..5).to_s + " + " + rand(1..5).to_s%></p>
+			<%= link_to "<div class='arrow_right'></div>".html_safe, "" %>
+		<% else %>
+			<p><%= @card.text %></p>
+			<% if @card.image_url %>
+				<img src="<%= @card.image_url %>">
+			<% end %>
+			<%= link_to "<div class='arrow_right'></div>".html_safe, flashcard_set_card_path(@set, next_card)%>
+			<h5><%= @card.id %> of <%= @set_length %></h5>
+		<% end %>
+	</div>
 </div>

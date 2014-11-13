@@ -1,18 +1,14 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
-set_1 = FlashcardSet.create(name: "Math" , image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/cars/370z_05_800.jpg")
-set_2 = FlashcardSet.create(name: "Vocabulary")
-set_3 = FlashcardSet.create(name: "Animals")
-set_4 = FlashcardSet.create(name: "Numbers")
-set_5 = FlashcardSet.create(name: "Alphabet")
+# decks
+set_1 = FlashcardSet.create(name: "Math" , image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/math.jpg")
+set_2 = FlashcardSet.create(name: "Vocabulary", image_url:"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Science-Vocabulary-Pictures.png")
+set_3 = FlashcardSet.create(name: "Animals", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Animal-Jigsaw-Puzzles.jpg")
+set_4 = FlashcardSet.create(name: "Numbers", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/fruit-numbers-building-blocks-wooden-barreled-children-puzzle-toys_TW08022_1.jpg")
+set_5 = FlashcardSet.create(name: "Alphabet", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/uncle-goose-upper-case-lower-case-blocks_zpscd8baeaf.jpg")
 
-Card.create(text: "1 + 4", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/cars/370z_05_800.jpg", flashcard_set_id: set_1.id )
-Card.create(text: "2 + 4", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/cars/370z_05_800.jpg", flashcard_set_id: set_1.id )
-Card.create(text: "3 + 4", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/cars/370z_05_800.jpg", flashcard_set_id: set_1.id )
-Card.create(text: "4 + 4", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/cars/370z_05_800.jpg", flashcard_set_id: set_1.id )
+# Math
+Card.create(text: "math", flashcard_set_id: set_1.id )
+
+# Vocabulary
+
+
 
