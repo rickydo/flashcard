@@ -1,8 +1,7 @@
 module CardHelper
 
-
-	def random_card_id
-		@card_ids.sample 
+	def first_card
+		@card_ids[0]
 	end
 
 	def next_card
@@ -12,6 +11,9 @@ module CardHelper
 			@card_ids[0]
 		end
 	end
+	# def random_card_id
+	# 	@card_ids.sample 
+	# end
 
 	# def card_blank_session
 	# 	session[:card_ids] = @card_ids

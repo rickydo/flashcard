@@ -68,7 +68,7 @@ animals.zip(animals_images).each do | animal, image |
 	Card.create!(text: animal, image_url: image, flashcard_set_id: animal_set.id)
 end
 # Numbers
-numbers = %w(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+numbers = %w(1 2 3 4 5 6 7 8 9 10 11 12)
 
 numbers_images =["http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/red_delicious_apple.jpg",
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/pears.jpg",

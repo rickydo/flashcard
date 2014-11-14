@@ -6,9 +6,9 @@ $white: #FFFFFF;
 $flashcard: #F5D0A9;
 
 // font styles
-$card_font: 15rem;
+$card_font: 5em;
 $font_weight: 900;
-$set_title: 2rem;
+$set_title: 2em;
 $lobster: 'Lobster', cursive;
 $indie: 'Indie Flower', cursive;
 
@@ -17,5 +17,7 @@ $rounded: 10px;
 
 //media screens
 $iphone: 360px;
-$ipad: 800px;
-$computer: 1080px;
+$small_window: 400px;
+$between_ipad_iphone: 700px;
+$ipad: 1024px;
+
