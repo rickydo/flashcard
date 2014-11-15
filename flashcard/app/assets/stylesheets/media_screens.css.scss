@@ -90,14 +90,13 @@
 			}
 		}
 	}
-	.container{
-		
+	.container{	
 		.content{
 			p {
 				font-size: 3em;
 			}
 			p.numbers{
-				font-size: 5em;
+				font-size: 6em;
 			}
 			h1{
 				font-size: 2em;
@@ -113,3 +112,85 @@
 		position:relative;
 	}
 }
+@media screen and (max-device-width: $nexus_5_landscape ) and (orientation: landscape){
+	.container{
+		.content{
+			p {
+				font-size: 4em;
+			}
+			p.numbers{
+				font-size: 6em;
+			}
+			h1{
+				font-size: 2em;
+			}
+			div.arrow_right{
+				right:-30px;
+				top: 200px;
+			}
+		}
+	}
+	p.credit_disclaimer{
+		top: 20px;
+		position:relative;
+	}
+}
+@media screen and (max-device-width: $ipad_portrait) and (orientation: portrait){
+	// .grow {
+	//   display: inline-block;
+	//   -webkit-transition-duration: null;
+	//   transition-duration: null;
+	//   -webkit-transition-property: null;
+	//   transition-property: null;
+	//   -webkit-tap-highlight-color: null;
+	//   -webkit-transform: null;
+	//   -ms-transform: null;
+	//   transform: null;
+	//   box-shadow: null;
+	// }
+
+	// .grow:hover {
+	//   -webkit-transform: null;
+	//   -ms-transform: null;
+	//   transform: null;
+	// }
+
+
+	p.credit_disclaimer{
+		top: 35px;
+		position:relative;
+	}
+}
+@media screen and (max-device-width: $ipad_landscape) and (orientation: landscape){
+	p.credit_disclaimer{
+		top: 35px;
+		position:relative;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
