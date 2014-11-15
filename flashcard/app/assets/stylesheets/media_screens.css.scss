@@ -1,0 +1,84 @@
+@import "variables";
+
+// responsive computer screens
+
+@media screen and (max-width: $ipad){
+	.header{
+		ul{
+			li{
+				h1#title.shadow-radial{
+					left: 29%;
+				}
+			}
+		}
+	}
+	.container{
+		
+		.content{
+			p.numbers{
+				margin-top: 50px; 
+			}
+		}
+	}
+}
+@media screen and (max-width: $between_ipad_iphone){
+	.header{
+		ul{
+			li{
+				h1#title.shadow-radial{
+					left: 22%;
+					font-size: 2rem;
+				}
+			}
+		}
+	}
+	.container{
+		.content{
+			p.numbers{
+				font-size: 7em;
+			}
+			img {
+				height: 200px;
+				width: 200px;
+			}
+		}
+	}
+}
+@media screen and (max-width: $small_window){
+	.header{
+		ul{
+			li{
+				h1#title.shadow-radial{
+					font-size: 1.5rem;
+					top:10px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: $iphone ){
+	.header{
+		ul{
+			li{
+				h1#title.shadow-radial{
+					top: 10px;
+					font-size: 20px;		
+				}
+			}
+		}
+	}
+	.container{
+		
+		.content{
+			p.numbers{
+				font-size: 5em;
+			}
+			h1{
+				font-size: 3em;
+			}
+			div.arrow_right{
+				right:-45px;
+			}
+		}
+	}
+}

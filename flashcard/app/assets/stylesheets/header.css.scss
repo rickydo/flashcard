@@ -14,25 +14,10 @@
 				left: 15px;
 			}
 			h1#title.shadow-radial {
-				font-size: 2.5rem;
 		 		color: $white;
 				margin-top: 0;
 				left: 33%;
-				@media screen and (max-width: $ipad){
-					left: 29%;
-				}
-				@media screen and (max-width: $between_ipad_iphone){
-					left: 22%;
-					font-size: 2rem;
-				}
-				@media screen and (max-width: $small_window){
-					font-size: 1.5rem;
-					top:10px;
-				}
-				@media screen and (max-width: $iphone ){
-					top: 10px;
-					font-size: 20px;
-				}
+				
 			}
 		}
 	}

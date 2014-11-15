@@ -11,7 +11,7 @@ p {
 	color: $black;
 	font-size: $card_font;
 	font-weight: $font_weight;
-	font-family: $lobster;
+	font-family: Times New Roman;
 }
 
 a {
@@ -23,7 +23,7 @@ a:hover {
 	color: white;
 }
 
-h1 {
+h1#title.shadow-radial {
 	font-family: $indie;
 }
 
@@ -33,9 +33,15 @@ li {
 }
 
 .container {
-	width: 85%;
+	width: 80%;
 	margin: 0 auto;
+  background-color: $flashcard;
+  height: 90%;
+  border-radius: $rounded;
+  position:relative;
+  top: 30px;
 }
+
 
 // hover effects
 .grow {

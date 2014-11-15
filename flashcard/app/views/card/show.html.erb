@@ -4,16 +4,18 @@
 		<% if @set.name == "Math" %>
 			<p class="numbers"><%=rand(1..5).to_s + " + " + rand(1..5).to_s%></p>
 			<%= link_to "<div class='arrow_right'></div>".html_safe, "" %>
+		<% elsif @set.name == "Vocabulary" %>
+			<p class="vocab_words"><%= @card.text %></p>
+		<% elsif @set.name == "Alphabet" %>
+			<p class="alphabet"><%= @card.text %></p>
 		<% else %>
-			<% if @set.name == "Alphabet" %>
-				<p class="alphabet"><%= @card.text %></p>
-			<% else %>
-				<p><%= @card.text %></p>
-			<% end %>
+			<p><%= @card.text %></p>
+		<% end %>
 			<% if @card.image_url %>
 				<img src="<%= @card.image_url %>">
 			<% end %>
+			<% if @set.name != "Math" %>
 			<%= link_to "<div class='arrow_right'></div>".html_safe, flashcard_set_card_path(@set, next_card)%>
-		<% end %>
+			<% end %>
 	</div>
 </div>
