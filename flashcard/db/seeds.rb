@@ -88,7 +88,7 @@ numbers.zip(numbers_images).each do | number, image |
 end
 
 #alphabet
-letters = [ "Apple" , "Banana", "Car", "Duck", "Eggs", "Fan", "Gorilla", "Hat", "Igloo", "Jacket", "Kite", "Lamp", 
+letters = [ "Apple" , "Banana", "Car", "Duck", "Eggs", "Fan", "Giraffe", "Hat", "Igloo", "Jacket", "Kite", "Lamp", 
 			"Muffins", "Noodles", "Oranges", "Persimmon", "Quilt", "Rocket", "Soap", "Tomato", "Umbrella", "Vase", 
 			"Water", "X-Ray", "Yogurt", "Zoo" ]
 
