@@ -1,8 +1,29 @@
 @import "variables";
 
 // responsive computer screens
-
-@media screen and (max-width: $ipad){
+@media screen and (max-width: $high_resolution){
+	.header{
+		ul{
+			li{
+				h1#title.shadow-radial{
+					left: 40%;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 1080px){
+	.header{
+		ul{
+			li{
+				h1#title.shadow-radial{
+					left: 30%;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 825px){
 	.header{
 		ul{
 			li{
@@ -56,7 +77,9 @@
 		}
 	}
 }
-@media screen and (max-width: $iphone ){
+
+//media screens for devices
+@media screen and (max-device-width: $nexus_5_portrait ) and (orientation: portrait){
 	.header{
 		ul{
 			li{
@@ -70,15 +93,23 @@
 	.container{
 		
 		.content{
+			p {
+				font-size: 3em;
+			}
 			p.numbers{
 				font-size: 5em;
 			}
 			h1{
-				font-size: 3em;
+				font-size: 2em;
 			}
 			div.arrow_right{
-				right:-45px;
+				right:-30px;
+				top: 400px;
 			}
 		}
+	}
+	p.credit_disclaimer{
+		top: 35px;
+		position:relative;
 	}
 }
