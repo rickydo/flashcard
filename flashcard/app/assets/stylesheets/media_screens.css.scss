@@ -134,42 +134,36 @@
 		position:relative;
 	}
 }
-@media screen and (max-device-width: $ipad_portrait) and (orientation: portrait){
+@media only screen 
+and (min-device-width: $ipad_portrait)
+and (max-device-width: $ipad_landscape) 
+and (webkit-min-device-pixel-ratio: 1){
 	p.credit_disclaimer{
 		top: 35px;
 		position:relative;
 	}
-}
-@media screen and (max-device-width: $ipad_landscape) and (orientation: landscape){
-	p.credit_disclaimer{
-		top: 35px;
-		position:relative;
+	ul.thumbs {
+		margin-top: 0;
+		padding-left: 0;
+		text-align: center;
+		li.deck_index {
+			display: inline-block;
+			width: 25%;
+			min-width: 191px;
+			height: 25%;
+			min-height: 295px ;
+			padding: 20px;
+			p {
+				font-size: $set_title;
+				text-align: center;
+			}
+			img {
+				height: 25%;
+				width: 100%;
+				border-radius: $rounded;
+			}
+		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

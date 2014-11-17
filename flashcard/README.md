@@ -4,5 +4,6 @@
 -what worked for me was heroku run rake db:seed after 
 -heroku pg:reset HEROKU_POSTGRESQL_color 
 -this resets the db
+-then do heroku run rake db:migrate before seeding
 -heroku config | grep POSTGRESQL shows the db url
 -foreman start for using unicorn on localhost:5000 -->
