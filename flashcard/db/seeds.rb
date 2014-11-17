@@ -144,18 +144,18 @@ end
 
 # shapes
 
-shapes = %w[circle triangle square star rectangle octagon diamond cross trapezoid arrow oval heart parallelogram sphere cone cube pyramid]
+shapes = %w[circle triangle square star rectangle octagon diamond cross trapezoid arrow oval heart parallelogram sphere cone cylinder cube pyramid]
 shape_images = ["http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/circle-hi.png",
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/600px-Green_equilateral_triangle_point_upsvg.png",
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/0001.png",
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/1216181106356570529jean_victor_balin_icon_starsvghi.png",
-				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/blue_rectangle.gif",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/cv103.jpg",
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/octagon-shaped-stop-stock-corrugated-plastic-sign-18x24.jpg",
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/CC0906.jpg",
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Red_Cross.png",
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/0001-1.png",
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/arrow_green.png",
-				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/c1356ab38d894dccbdc2d23333544660-800.png",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/cv101.jpg",
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/heart_PNG687.png",
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/parallelogram11.gif",
 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/528516-1ball2.jpg",
