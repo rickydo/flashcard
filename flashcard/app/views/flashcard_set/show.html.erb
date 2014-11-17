@@ -2,7 +2,7 @@
 	<div class="content">
 		<h1><%= @flashcard_set.name %></h1>
 		<img src="<%= @flashcard_set.image_url %>">
-		<h2><%= link_to "<div class='arrow_right'></div>".html_safe, flashcard_set_card_path(@flashcard_set, first_card ) %></h2>
+		<h2><%= link_to "<div class='arrow_right'></div>".html_safe, flashcard_set_card_path(@flashcard_set, @first_card ) %></h2>
 
 	</div>
 </div>

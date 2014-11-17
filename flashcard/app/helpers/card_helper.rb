@@ -1,14 +1,14 @@
 module CardHelper
 
-	def first_card
-		@first_card.id
-	end
+	# def first_card
+	# 	@first_card
+	# end
 
 	def next_card
 		if @card_ids.include?(@card.id + 1) 
 			@card.id + 1 
 		else
-			first_card
+			@first_card
 		end
 	end
 	# def random_card_id
