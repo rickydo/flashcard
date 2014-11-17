@@ -1,38 +1,38 @@
 @import "variables";
 
 // responsive computer screens
-@media screen and (max-width: $high_resolution){
-	.header{
-		ul{
-			li{
-				h1#title.shadow-radial{
-					left: 40%;
-				}
-			}
-		}
-	}
-}
-@media screen and (max-width: 1080px){
-	.header{
-		ul{
-			li{
-				h1#title.shadow-radial{
-					left: 30%;
-				}
-			}
-		}
-	}
-}
+// @media screen and (max-width: $high_resolution){
+// 	.header{
+// 		ul{
+// 			li{
+// 				h1#title.shadow-radial{
+// 					left: 40%;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+// @media screen and (max-width: 1080px){
+// 	.header{
+// 		ul{
+// 			li{
+// 				h1#title.shadow-radial{
+// 					left: 30%;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
 @media screen and (max-width: 825px){
-	.header{
-		ul{
-			li{
-				h1#title.shadow-radial{
-					left: 29%;
-				}
-			}
-		}
-	}
+	// .header{
+	// 	ul{
+	// 		li{
+	// 			h1#title.shadow-radial{
+	// 				left: 29%;
+	// 			}
+	// 		}
+	// 	}
+	// }
 	.container{
 		
 		.content{
@@ -47,7 +47,6 @@
 		ul{
 			li{
 				h1#title.shadow-radial{
-					left: 22%;
 					font-size: 2rem;
 				}
 			}
@@ -80,16 +79,16 @@
 
 //media screens for devices
 @media screen and (max-device-width: $nexus_5_portrait ) and (orientation: portrait){
-	.header{
-		ul{
-			li{
-				h1#title.shadow-radial{
-					top: 10px;
-					font-size: 20px;		
-				}
-			}
-		}
-	}
+	// .header{
+	// 	ul{
+	// 		li{
+	// 			h1#title.shadow-radial{
+	// 				top: 10px;
+	// 				font-size: 20px;		
+	// 			}
+	// 		}
+	// 	}
+	// }
 	.container{	
 		.content{
 			p {
@@ -136,26 +135,6 @@
 	}
 }
 @media screen and (max-device-width: $ipad_portrait) and (orientation: portrait){
-	// .grow {
-	//   display: inline-block;
-	//   -webkit-transition-duration: null;
-	//   transition-duration: null;
-	//   -webkit-transition-property: null;
-	//   transition-property: null;
-	//   -webkit-tap-highlight-color: null;
-	//   -webkit-transform: null;
-	//   -ms-transform: null;
-	//   transform: null;
-	//   box-shadow: null;
-	// }
-
-	// .grow:hover {
-	//   -webkit-transform: null;
-	//   -ms-transform: null;
-	//   transform: null;
-	// }
-
-
 	p.credit_disclaimer{
 		top: 35px;
 		position:relative;

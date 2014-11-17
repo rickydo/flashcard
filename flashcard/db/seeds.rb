@@ -5,7 +5,8 @@ animal_set = FlashcardSet.create(name: "Animals", image_url: "http://i67.photobu
 number_set = FlashcardSet.create(name: "Numbers", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/fruit-numbers-building-blocks-wooden-barreled-children-puzzle-toys_TW08022_1.jpg")
 letters_set = FlashcardSet.create(name: "Alphabet", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/uncle-goose-upper-case-lower-case-blocks_zpscd8baeaf.jpg")
 colors_set = FlashcardSet.create(name: "Colors", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/piano_wallpaper_music_colors-1920x1200.jpg")
-
+shapes_set = FlashcardSet.create(name: "Shapes", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/shapes-2.jpg")
+sight_words_set = FlashcardSet.create!(name: "Sight Words", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/7B528A4E89-0716-4358-B707-448226E0BAB17D_sight_words.png")
 # Math
 Card.create(text: "math", flashcard_set_id: math_set.id )
 
@@ -141,3 +142,34 @@ colors.zip(colors_images).each do | color, image |
 	Card.create!(text: color, image_url: image, flashcard_set_id: colors_set.id)
 end
 
+# shapes
+
+shapes = %w[circle triangle square star rectangle octagon diamond cross trapezoid arrow oval heart parallelogram sphere cone cube pyramid]
+shape_images = ["http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/circle-hi.png",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/600px-Green_equilateral_triangle_point_upsvg.png",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/0001.png",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/1216181106356570529jean_victor_balin_icon_starsvghi.png",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/blue_rectangle.gif",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/octagon-shaped-stop-stock-corrugated-plastic-sign-18x24.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/CC0906.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Red_Cross.png",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/0001-1.png",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/arrow_green.png",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/c1356ab38d894dccbdc2d23333544660-800.png",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/heart_PNG687.png",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/parallelogram11.gif",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/528516-1ball2.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/71795.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/cylinder.png",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/07-cube.jpg",
+				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Pyramid202.png"]
+
+shapes.zip(shape_images).each do | shape, image |
+	Card.create!(text: shape , image_url: image, flashcard_set_id: shapes_set.id)
+end
+# sight words
+sight_words =%w[about who he every pretty too be in  make yes their am was of new see where well at out please we on under not the just are big she that now saw me do from can my all yes then went around have an one there were them because it know I her play they when could his them like but said very with down little some want would]
+
+sight_words.each do |word|
+	Card.create!(text: word, flashcard_set_id: sight_words_set.id)
+end
