@@ -1,7 +1,7 @@
 module CardHelper
 
 	def first_card
-		@card_ids[0]
+		@first_card.id
 	end
 
 	def next_card
