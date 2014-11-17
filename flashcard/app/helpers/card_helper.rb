@@ -8,7 +8,7 @@ module CardHelper
 		if @card_ids.include?(@card.id + 1) 
 			@card.id + 1 
 		else
-			@card_ids[0]
+			first_card
 		end
 	end
 	# def random_card_id
