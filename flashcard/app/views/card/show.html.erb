@@ -17,5 +17,6 @@
 			<% if @set.name != "Math" %>
 			<%= link_to "<div class='arrow_right'></div>".html_safe, flashcard_set_card_path(@set, next_random_card), id: "next_card"%>
 			<% end %>
+			<%= session.inspect %>
 	</div>
 </div>
