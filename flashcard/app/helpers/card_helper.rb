@@ -8,24 +8,16 @@ module CardHelper
 	# 	end
 	# end
 
-	def remove_first_card_seen
-		session[:cards].delete_if {|num| num == @card.id}
-	end
-
 	def card_pop
 		session[:cards].pop
 	end
 
 	def reshuffle
-		session[:cards] = @card_ids
+		redirect_to flashcard_set_path(@set) if session[:cards] == nil	
 	end
 
 	def next_random_card
-		if session[:cards] == nil
-			reshuffle
-			card_pop  
-		else
-			card_pop	
-		end
+		reshuffle
+		card_pop unless session[:cards] == nil
 	end
 end
