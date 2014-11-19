@@ -1,9 +1,5 @@
 module CardHelper
 
-	# def first_card
-	# 	@first_card
-	# end
-
 	def next_card
 		if @card_ids.include?(@card.id + 1) 
 			@card.id + 1 
@@ -11,39 +7,25 @@ module CardHelper
 			@first_card
 		end
 	end
-	# def random_card_id
-	# 	@card_ids.sample 
-	# end
 
-	# def card_blank_session
-	# 	session[:card_ids] = @card_ids
-	# end
-	
-	# def card_to_session(card)
-	# 	if session[:card_ids].include?(card) == false
-	# 		session[:card_ids] << card
-	# 	end
-	# end
+	def remove_first_card_seen
+		session[:cards].delete_if {|num| num == @card.id}
+	end
 
-	# def next_random_card
-		# card = random_card_id
-		# random_card_id.to_i
-		# card_to_session(random_card_id)
-		# if session[:card_ids].sort == @card_ids.sort
-		# 	card_blank_session
-		# 	card
+	def card_pop
+		session[:cards].pop
+	end
 
-		# elsif session[:card_ids].include?(card)
+	def reshuffle
+		session[:cards] = @card_ids
+	end
 
-		# 	while session[:card_ids].include?(random_card_id)  
-		# 		random_card_id 
-		# 	end
-		# 		# next_random_card if random_card_id == nil
-		# else
-		# 	card
-		# end
-		# card_to_session(@card)
-	# end
-
-
+	def next_random_card
+		if card_pop == nil
+			reshuffle
+			card_pop
+		else
+			card_pop
+		end
+	end
 end
