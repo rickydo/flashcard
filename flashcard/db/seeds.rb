@@ -1,20 +1,20 @@
 # decks
 math_set = FlashcardSet.create(name: "Math" , image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/math.jpg")
 vocab_set = FlashcardSet.create(name: "Vocabulary", image_url:"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Science-Vocabulary-Pictures.png")
-vocab_set_2 = FlashcardSet.create(name: "Vocab-2", image_url:"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Science-Vocabulary-Pictures.png")
-vocab_set_3 = FlashcardSet.create(name: "Vocab-3", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Science-Vocabulary-Pictures.png")
-vocab_set_4 = FlashcardSet.create(name: "Vocab-4", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Science-Vocabulary-Pictures.png")
-vocab_set_5 = FlashcardSet.create(name: "Vocab-5", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Science-Vocabulary-Pictures.png")
-vocab_set_6 = FlashcardSet.create(name: "Vocab-6", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Science-Vocabulary-Pictures.png")
+vocab_set_2 = FlashcardSet.create(name: "Vocab-2", image_url:"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/vocabulary-logo.png")
+vocab_set_3 = FlashcardSet.create(name: "Vocab-3", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/vocabulary-abc.jpg")
+vocab_set_4 = FlashcardSet.create(name: "Vocab-4", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Vocabulary-image-with-boy-1hwwr81.jpg")
+vocab_set_5 = FlashcardSet.create(name: "Vocab-5", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/CATHY2BTHINKING2BOUT2BLOUD2BGROW2BYOUR2BVOCAB2BGRAPHIC2B22B-2BCopy.png")
+vocab_set_6 = FlashcardSet.create(name: "Vocab-6", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/8653120_orig.jpg")
 animal_set = FlashcardSet.create(name: "Animals", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Animal-Jigsaw-Puzzles.jpg")
 number_set = FlashcardSet.create(name: "Numbers", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/fruit-numbers-building-blocks-wooden-barreled-children-puzzle-toys_TW08022_1.jpg")
 letters_set = FlashcardSet.create(name: "Alphabet", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/uncle-goose-upper-case-lower-case-blocks_zpscd8baeaf.jpg")
 colors_set = FlashcardSet.create(name: "Colors", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/piano_wallpaper_music_colors-1920x1200.jpg")
 shapes_set = FlashcardSet.create(name: "Shapes", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/shapes-2.jpg")
 sight_words_set = FlashcardSet.create!(name: "Sight Words", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/7B528A4E89-0716-4358-B707-448226E0BAB17D_sight_words.png")
-sight_words_set_2 = FlashcardSet.create!(name: "Sight Words 2", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/7B528A4E89-0716-4358-B707-448226E0BAB17D_sight_words.png")
-sight_words_set_3 = FlashcardSet.create!(name: "Sight Words 3", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/7B528A4E89-0716-4358-B707-448226E0BAB17D_sight_words.png")
-sight_words_set_4 = FlashcardSet.create!(name: "Sight Words 4", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/7B528A4E89-0716-4358-B707-448226E0BAB17D_sight_words.png")
+sight_words_set_2 = FlashcardSet.create!(name: "Sight Words 2", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/SightWords.jpeg")
+sight_words_set_3 = FlashcardSet.create!(name: "Sight Words 3", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/First20Grade20sight20word20wall.jpg")
+sight_words_set_4 = FlashcardSet.create!(name: "Sight Words 4", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/vocabulary.jpg")
 
 
 # Math
