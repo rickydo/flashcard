@@ -1,12 +1,12 @@
 module CardHelper
 
-	# def next_card
-	# 	if @card_ids.include?(@card.id + 1) 
-	# 		@card.id + 1 
-	# 	else
-	# 		@first_card
-	# 	end
-	# end
+	def next_card
+		if @card_ids.include?(@card.id + 1) 
+			@card.id + 1 
+		else
+			@first_card
+		end
+	end
 
 	def card_pop
 		session[:cards].pop

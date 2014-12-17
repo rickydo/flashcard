@@ -69,24 +69,24 @@ animals.zip(animals_images).each do | animal, image |
 	Card.create!(text: animal, image_url: image, flashcard_set_id: animal_set.id)
 end
 # Numbers
-numbers = %w(1 2 3 4 5 6 7 8 9 10 11 12)
+numbers = %w(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25)
 
-numbers_images =["http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/red_delicious_apple.jpg",
-				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/pears.jpg",
-				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/7355631902_68936774d2_z.jpg",
-				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/kiwi-healthy-for-pregnancy.jpg",
-				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/bananas2.jpg",
-				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Donuts.jpg",
-				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/popup-1.jpg",
-				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/8-cherries-010.jpg",
-				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/5865.jpg",
-				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/ten-fingers.jpg",
-				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/11-dogs.jpg",
-				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/one-dozen-eggs_medium.jpg"]
+# numbers_images =["http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/red_delicious_apple.jpg",
+# 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/pears.jpg",
+# 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/7355631902_68936774d2_z.jpg",
+# 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/kiwi-healthy-for-pregnancy.jpg",
+# 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/bananas2.jpg",
+# 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Donuts.jpg",
+# 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/popup-1.jpg",
+# 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/8-cherries-010.jpg",
+# 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/5865.jpg",
+# 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/ten-fingers.jpg",
+# 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/11-dogs.jpg",
+# 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/one-dozen-eggs_medium.jpg"]
 
-numbers.zip(numbers_images).each do | number, image | 
-	Card.create!(text: number, image_url: image, flashcard_set_id: number_set.id )
-end
+# numbers.zip(numbers_images).each do | number, image | 
+# 	Card.create!(text: number, image_url: image, flashcard_set_id: number_set.id )
+# end
 
 #alphabet
 letters = [ "Apple" , "Banana", "Car", "Duck", "Eggs", "Fan", "Giraffe", "Hat", "Igloo", "Jacket", "Kite", "Lamp", 

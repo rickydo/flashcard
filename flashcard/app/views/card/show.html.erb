@@ -4,7 +4,7 @@
 		<% if @set.name == "Math" %>
 			<p class="numbers"><%=rand(1..5).to_s + " + " + rand(1..5).to_s%></p>
 			<%= link_to "<div class='arrow_right'></div>".html_safe, "" %>
-		<% elsif @set.name == "Vocabulary" ||  @set.name == "Sight Words"%>
+		<% elsif @set.name == "Vocabulary" ||  @set.name == "Sight Words" || @set.name == "Numbers"%>
 			<p class="vocab_words"><%= @card.text %></p>
 		<% elsif @set.name == "Alphabet" %>
 			<p class="alphabet"><%= @card.text %></p>
@@ -15,8 +15,7 @@
 				<img src="<%= @card.image_url %>">
 			<% end %>
 			<% if @set.name != "Math" %>
-			<%= link_to "<div class='arrow_right'></div>".html_safe, flashcard_set_card_path(@set, next_random_card), id: "next_card"%>
+			<%= link_to "<div class='arrow_right'></div>".html_safe, flashcard_set_card_path(@set, next_card), id: "next_card"%>
 			<% end %>
-			<%= session.inspect %>
 	</div>
 </div>
