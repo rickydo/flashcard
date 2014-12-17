@@ -1,6 +1,13 @@
 # decks
 math_set = FlashcardSet.create(name: "Math" , image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/math.jpg")
 vocab_set = FlashcardSet.create(name: "Vocabulary", image_url:"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Science-Vocabulary-Pictures.png")
+vocab_set_2 = FlashcardSet.create(name: "Vocab-2", image_url:"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Science-Vocabulary-Pictures.png")
+vocab_set_3 = FlashcardSet.create(name: "Vocab-3", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Science-Vocabulary-Pictures.png")
+vocab_set_4 = FlashcardSet.create(name: "Vocab-4", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Science-Vocabulary-Pictures.png")
+vocab_set_5 = FlashcardSet.create(name: "Vocab-5", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Science-Vocabulary-Pictures.png")
+vocab_set_6 = FlashcardSet.create(name: "Vocab-6", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Science-Vocabulary-Pictures.png")
+
+
 animal_set = FlashcardSet.create(name: "Animals", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/Animal-Jigsaw-Puzzles.jpg")
 number_set = FlashcardSet.create(name: "Numbers", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/fruit-numbers-building-blocks-wooden-barreled-children-puzzle-toys_TW08022_1.jpg")
 letters_set = FlashcardSet.create(name: "Alphabet", image_url: "http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/uncle-goose-upper-case-lower-case-blocks_zpscd8baeaf.jpg")
@@ -10,23 +17,58 @@ sight_words_set = FlashcardSet.create!(name: "Sight Words", image_url: "http://i
 # Math
 Card.create(text: "math", flashcard_set_id: math_set.id )
 
-# Vocabulary
+# Vocabulary 
+# first set
 words = ["arms", "arms down", "arms up", "baby", "babies", "clap", "clapping", "colors", "eyes", "hi", "mouth",
- 		"nose", "reach", "reaching", "toes", "wave", "waving", "bib", "blanket", "book", "bubble", "bucket", "crawling",
- 		"diaper", "ear", "eating", "head", "keys", "kick", "mouth", "nap", "no", "point", "rattle", "roll over",
- 		"smiling", "swing", "tongue", "yes", "zip", "ball", "balls", "bat", "bellybutton", "bike", "blocks", 
- 		"blow", "brush", "car", "chin", "circle", "comb", "cows", "cup", "drinking", "drum", "drums", "fingers", "foot",
- 		"fun", "goat", "hair", "happy", "hat", "hats", "kicking" , "leg", "legs", "look", "play", "pushing", "reading",
- 		"run", "shake", "sit", "sitting", "smell", "square", "stand up", "tap", "teeth", "touch", "animals", "back", 
- 		"bow", "boy", "car seat", "cheek", "clap your hands", "drink", "elbow", "girl", "hand", "hands", "hold your head", 
- 		"kick your legs", "kite", "knees", "look down", "look up", "moon", "pet", "shaking", "shoe", "shoulders", "sleeping", 
- 		"stars", "touch both feet", "touch one foot", "touch your ears", "touch your hair", "touch your nose", "touch your toes",
- 		"toys", "tree", "umbrella", "walk", "walking", "wave your hand", "yawn", "zipper"]
+ 		"nose", "reach", "reaching", "toes", "wave", "waving"]
+
 
 words.each do |word|
 	Card.create!(text: word, flashcard_set_id: vocab_set.id)
 end
-# words_images = []
+
+# second set
+
+words_2 = ["bib", "blanket", "book", "bubble", "bucket", "crawling", "diaper", "ear", "eating", "head", "keys", "kick", "mouth", "nap", "no", "point", "rattle", "roll over",
+ 		"smiling", "swing", "tongue", "yes", "zip"]
+
+words_2.each do |word|
+	Card.create!(text: word, flashcard_set_id: vocab_set_2.id)
+end
+
+# third set
+words_3 = ["ball", "balls", "bat", "bellybutton", "bike", "blocks", "blow", "brush", "car", "chin", "circle", 
+			"comb", "cows", "cup", "drinking", "drum", "drums", "fingers", "foot", "fun", "goat", "hair"]
+
+words_3.each do |word|
+	Card.create!(text: word, flashcard_set_id: vocab_set_3.id)
+end
+
+# fourth set
+
+words_4 = ["happy", "hat", "hats", "kicking" , "leg", "legs", "look", "play", "pushing", "reading",
+ 			"run", "shake", "sit", "sitting", "smell", "square", "stand up", "tap", "teeth", "touch"]
+
+words_4.each do |word|
+	Card.create!(text: word, flashcard_set_id: vocab_set_4.id)
+end
+
+# fifth set
+words_5 = [ "animals", "back", "bow", "boy", "car seat", "cheek", "clap your hands", "drink", "elbow", 
+			"girl", "hand", "hands", "hold your head", "kick your legs", "kite", "knees", "look down",
+			"look up", "moon", "pet", "shaking"]
+words_5.each do |word|
+	Card.create!(text: word, flashcard_set_id: vocab_set_5.id)
+end
+
+# sixth set
+
+words_6 =[ "shoe", "shoulders", "sleeping", "stars", "touch both feet", "touch one foot", "touch your ears",
+			 "touch your hair", "touch your nose", "touch your toes", "toys", "tree", "umbrella", "walk", 
+			 "walking", "wave your hand", "yawn", "zipper"]
+words_6.each do |word|
+	Card.create!(text: word, flashcard_set_id: vocab_set_6.id)
+end
 
 # animals
 animals = ["cat", "dog", "elephant", "gorilla", "tiger", "chimpanzees", "giraffe", "hippopotamus", "monkey", "camel", 
@@ -71,6 +113,9 @@ end
 # Numbers
 numbers = %w(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25)
 
+numbers.each do |number|
+	Card.create!(text: number, flashcard_set_id: number_set.id)
+end
 # numbers_images =["http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/red_delicious_apple.jpg",
 # 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/pears.jpg",
 # 				"http://i67.photobucket.com/albums/h311/azncookiedo/website%20image%20hosting/7355631902_68936774d2_z.jpg",
