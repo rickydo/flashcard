@@ -7,6 +7,7 @@
 		margin: 0;
 		li{	
 			display: inline;
+			width: 300px;
 			a.grow{
 				color: $white;
 				font-size: 2.5rem;
@@ -17,7 +18,7 @@
 		 		color: $white;
 				margin-top: 0;
 				text-align: center;
-				
+				display: block;
 			}
 		}
 	}

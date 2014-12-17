@@ -5,7 +5,8 @@ class FlashcardSetController < ApplicationController
 
 	def show
 		@flashcard_set = FlashcardSet.find(params[:id])
-		# @card_ids = @flashcard_set.cards.map(&:id)
 		@first_card = @flashcard_set.cards.order(:id).first.id
+		@card_ids = @flashcard_set.cards.map(&:id).shuffle!
+		session[:cards] = @card_ids
 	end
 end
